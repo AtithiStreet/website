@@ -1,0 +1,78 @@
+ .namaste{
+  height:25px;
+  width:21px;
+  background-image: linear-gradient(to right ,#fefdfe, #fffefd);
+  border-style: solid;
+  border-top-color: #b95f88;
+  border-bottom-color: #b95f88;
+  border-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+ }
+ 
+ body {
+    font-family: Sans-Serif;
+    margin: 0%;
+  }
+ 
+  
+  .welcome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 0px;
+  }
+   
+  .box{
+    width:100%;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+  }
+
+  .atithi {
+    color: #F28F3B;
+    background-color:aliceblue;
+    background-image: linear-gradient(to right ,#eee1e7, white);
+    width: 50%;
+    height: 25px;
+    text-align: right;
+    padding-right: 1%;
+    line-height: 25px;
+    -webkit-text-stroke: 0.5px black;
+    border-style: solid;
+    border-image: linear-gradient(to right,#F28F3B, #B95F89) 1;
+    border-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    font-weight: bolder;
+  }
+
+  .street {
+    color: #B95F89;
+    background-color:aliceblue;
+    background-image: linear-gradient(to right, white,#FFD5C2 ) ;
+    text-align: left;
+    padding-left: 1%;
+    width: 50%;
+    height: 25px;
+    line-height: 25px;;
+    -webkit-text-stroke: 0.5px black;
+    border-style: solid;
+    border-image: linear-gradient(to right,#B95F89, #F28F3B) 1;
+    border-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    font-weight: bolder;
+  }
+
+.content {
+  text-align: center;
+  font-weight:bolder;
+}
